@@ -26,7 +26,7 @@ spec:
             - --github-endpoint=https://api.github.com
             - --enable-controller=plank
             - --job-config-path=/etc/job-config
-          image: gcr.io/k8s-prow/prow-controller-manager:v20210806-c95403cd67
+          image: gcr.io/k8s-prow/prow-controller-manager:v20210818-b81cb0bc7b
           volumeMounts:
             - name: github-token
               mountPath: /etc/github
